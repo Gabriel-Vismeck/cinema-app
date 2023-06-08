@@ -1,0 +1,62 @@
+#barra-lateral {
+    padding: 20px;
+    padding-bottom: 0;
+
+    position: fixed;
+    width: 300px;
+    height: 100vh;
+    overflow: auto;
+    background: var(--cor-30);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.50);
+    z-index: 2;
+    border: solid 1px var(--cor-30);
+
+    transition: left 1s;
+}
+
+#barra-lateral,
+#barra-lateral button,
+#barra-lateral a {
+    color: var(--branco);
+
+    transition: all ease 0.2s;
+}
+
+#barra-lateral:hover,
+#barra-lateral button:hover,
+#barra-lateral a:hover {
+    color: var(--cor-10);
+}
+
+#barra-lateral .botao-fechar {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+#barra-lateral button {
+    background-color: transparent;
+    border: 0;
+    padding: 0;
+}
+
+#barra-lateral button i {
+    width: 20px;
+    height: 20px;
+}
+
+#barra-lateral ul {
+    list-style-type: none;
+}
+
+#barra-lateral a {
+    text-decoration: none;
+}
+
+#barra-lateral.aberto {
+    left: 0px;
+}
+
+#barra-lateral.fechado {
+    left: -300px;
+}

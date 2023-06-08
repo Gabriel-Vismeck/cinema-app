@@ -1,0 +1,71 @@
+#header {
+    background: var(--cor-30);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.50);
+}
+
+#header .imagem-titulo {
+    width: 40px;
+    padding-right: 5px;
+}
+
+#header a{
+    transition: all ease 0.2s;
+}
+
+#header a:hover{
+    color: var(--cor-10) !important;
+}
+
+#header .btn{
+    color:var(--branco)
+}
+
+#header .btn:hover{
+    color: var(--cor-10);
+}
+
+#header .header-filmes:hover{
+    color: var(--cor-10) !important;
+}
+
+#header .caixa-busca{
+    color: var(--branco);
+    background-color: transparent;
+    border: none;
+    outline: none;
+    box-shadow: 0 1px 0 gray;
+            transition: box-shadow 0.3s ease-in-out;
+}
+
+#header .caixa-busca:focus{
+    box-shadow: 0 1px 0 var(--branco);
+}
+
+#header .filmes-opcoes{
+    background-color: var(--cor-30);
+}
+
+#header .custom-fade {
+    animation-name: fade;
+    animation-duration: 0.3s;
+  }
+  
+@keyframes fade {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+    height: 24px;
+    width: 24px;
+    margin-left: .4em;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23AD0000'><path d='M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z'/></svg>");
+    cursor: pointer;
+    transition: all ease 0.3s;
+  }
+
+  ::-webkit-search-cancel-button:hover {
+    
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23FF0000'><path d='M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z'/></svg>");
+  }

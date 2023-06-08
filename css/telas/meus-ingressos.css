@@ -1,0 +1,21 @@
+.card-filme-imagem {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 30px;
+
+    width: 100%;
+    aspect-ratio: 236 / 396;
+}
+
+.card-filme-imagem img {
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+}
+
+.card-filme-texto {
+    color: var(--branco);
+}

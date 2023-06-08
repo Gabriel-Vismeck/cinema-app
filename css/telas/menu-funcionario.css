@@ -1,0 +1,61 @@
+.menu-funcionario {
+    color: var(--branco);
+    padding: 2.5rem;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
+.grid-caixas {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 30px;
+}
+
+.caixa {
+    width: 100%;
+    aspect-ratio: 1;
+
+    color: var(--branco);
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border: 3px solid #646464;
+
+    background-color: #646464;
+
+    cursor: pointer;
+    text-decoration: none;
+    transition: .1s all ease;
+}
+
+.caixa p {
+    margin-bottom: 0;
+    text-decoration: none;
+    transition: all ease .1s;
+    font-size: 20px;
+}
+
+.caixa:hover  {
+    background-color: #888888;
+} 
+.caixa:hover p {
+    color: var(--cor-10);
+}
+
+.caixa:hover .tamanho {
+    color: var(--cor-10);
+}
+
+.tamanho {
+    font-size: 70px;
+    transition: all ease .1s;
+}
+
+a{
+    text-decoration: none;
+}

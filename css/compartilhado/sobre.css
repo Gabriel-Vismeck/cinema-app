@@ -1,0 +1,23 @@
+.caixa-sobre{
+    color: var(--branco);
+    padding: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.texto-sobre{
+    max-width: 700px;
+    max-height: 700px;
+    text-align: justify;
+    display: flexbox;
+    background-color: var(--cor-30);
+    padding: 30px 40px 40px 40px;
+    border-radius: 30px;
+}
+.titulo-sobre{
+    color: var(--branco);
+    text-align: center;
+    padding: 30px;
+    margin: 0px;
+    padding: 30px 30px 0px 30px;
+}

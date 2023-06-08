@@ -1,0 +1,67 @@
+.imagem-filme img {
+    display: block !important;
+    margin: 0 auto !important;
+    border-radius: 20px;
+    height: 150px;
+    width: 100px;
+}
+
+.imagem-filme {
+    padding: 20% !important;
+}
+
+.texto-filme {
+    display: flex;
+    justify-content: center;
+    color: var(--branco);
+}
+
+#tabela-pagamento table {
+    width: 30%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+#tabela-pagamento th,
+td {
+    color: var(--branco);
+    border: none;
+    padding: 12px 16px;
+    text-align: left;
+}
+
+#tabela-pagamento th {
+    background-color: var(--cor-10);
+    font-weight: bold;
+}
+
+#tabela-pagamento select {
+    width: 100%;
+    padding: 8px;
+    border: 2px solid #dddddd;
+    border-radius: 4px;
+    background-color: var(--branco);
+    transition: all ease 0.2s;
+}
+
+#tabela-pagamento select:focus {
+    outline: none;
+    border-color: var(--cor-10);
+}
+
+.botao-pagamento button {
+    display: block !important;
+    margin: 0 auto !important;
+    width: 150px;
+    background-color: var(--cor-10);
+    color: var(--branco);
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+    transition: all ease 0.3s;
+}
+
+.botao-pagamento button:hover {
+    background-color: #da1515;
+}

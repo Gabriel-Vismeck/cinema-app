@@ -1,0 +1,53 @@
+.card-filme-imagem {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 30px;
+
+    width: 100%;
+    aspect-ratio: 236 / 396;
+}
+
+.card-filme-imagem img {
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+}
+
+.card-filme-texto {
+    color: var(--branco);
+}
+
+.local-dia-select {
+    background-color: transparent;
+    color: var(--cor-10);
+    border: none;
+    font-size: larger;
+    cursor: pointer;
+    transition: opacity 0.3s ease-in;
+}
+
+.local-dia-select option {
+    background-color: var(--cor-60);
+    color: var(--cor-10);
+}
+
+.sessao-texto {
+    color: var(--branco);
+    font-size: larger;
+    text-decoration: none;
+}
+
+.sessao-texto i {
+    color: var(--cor-10);
+}
+
+#caixitos a {
+    transition: ease all 0.3s;
+}
+
+#caixitos a:hover {
+    background-color: #575757;
+}

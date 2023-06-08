@@ -1,0 +1,19 @@
+.lista .linha {
+    grid-template-columns: 0.5fr 0.75fr 0.25fr 0.25fr 0.25fr 0.25fr 0.25fr;
+}
+
+.botao-alternativo{
+    margin-left: 7px !important;
+
+    border: 2px solid var(--cor-10) !important;
+
+    background-color: transparent !important; 
+
+    color: var(--cor-10);
+
+}
+
+.botao-alternativo:hover{
+    background-color: var(--cor-10) !important; 
+    color: var(--branco);
+}

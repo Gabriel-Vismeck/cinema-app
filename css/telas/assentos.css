@@ -1,0 +1,104 @@
+/* Seção Assentos Sala */
+.linha {
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    column-gap: 5px;
+    margin-bottom: 5px;
+}
+
+.item-sala {
+    width: 100%;
+    aspect-ratio: 1;
+
+    color: var(--branco);
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid transparent;
+}
+
+.assento {
+    background-color: var(--branco);
+    color: black;
+    user-select: none;
+    cursor: pointer;
+    transition: ease 0.1s;
+}
+
+/*
+.disponivel {
+}
+*/
+
+.disponivel:hover {
+    border: solid 3px var(--cor-10);
+}
+
+.indisponivel {
+    cursor: not-allowed;
+    opacity: 25%;
+}
+
+.selecionado {
+    background-color: var(--cor-10);
+    color: var(--branco);
+
+    border: dotted 2px var(--branco);
+}
+
+.tela {
+    background-color: var(--branco);
+    color: black;
+    grid-column-start: 4;
+    grid-column-end: 19;
+    aspect-ratio: auto !important;
+}
+
+/* Seção Assentos Escolhidos */
+.titulo-escolhidos {
+    color: var(--branco);
+}
+
+.assentos-escolhidos {
+    scroll-behavior: auto;
+}
+
+.assento-escolhido {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    color: var(--branco);
+
+    margin-bottom: 15px;
+}
+
+.assento-escolhido .assento {
+    width: 50px !important;
+}
+
+.assento-escolhido .cancelar-assento {
+    color: var(--cor-10);
+    cursor: pointer;
+}
+
+.botao-comprar {
+    width: 100%;
+
+    background-color: var(--cor-10);
+    color: var(--branco);
+
+    padding: 10px;
+
+    border-radius: 30px;
+    border: none;
+
+    transition: all ease 0.3s;
+}
+
+.botao-comprar:hover {
+    background-color: #da1515;
+}

@@ -1,0 +1,40 @@
+/* Layout */
+#corpo {
+    margin-bottom: 25px;
+}
+
+/* Filmes */
+.cartao-filme {
+    position: relative;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background: rgba(217, 217, 217, 0.9);
+    border-radius: 30px;
+    cursor: pointer;
+    aspect-ratio: 203 / 278;
+}
+
+.cartao-filme img {
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+}
+
+
+/* Configurar o swiper */
+.swiper {
+    width: 100%;
+}
+
+#corpo .swiper-pagination-bullet {
+    background-color: var(--cor-10);
+    overflow: visible;
+    margin-bottom: -14px;
+}
+
+#corpo .swiper-button-prev,
+#corpo .swiper-button-next {
+    color: var(--cor-10);
+}

@@ -1,0 +1,31 @@
+.fundo-cinza {
+    background-color: var(--cor-30);
+    border-radius: 30px;
+}
+
+.titulo-secao {
+    color: var(--branco);
+    text-align: center;
+    padding: 30px;
+}
+
+.botao-componente {
+    padding: 15px 50px;
+
+    margin-left: 50px;
+
+    border-radius: 15px;
+    background-color: var(--cor-10);
+    color: var(--branco);
+
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+
+    transition: ease 0.2s;
+}
+
+
+.botao-componente:hover {
+    background-color: rgb(201, 0, 0);
+}

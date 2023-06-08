@@ -1,0 +1,7 @@
+.lista .linha {
+    grid-template-columns: 1fr 1fr 0.75fr 0.75fr 0.75fr 0.5fr 0.75fr 1fr 0.75fr 0.75fr 0.5fr;
+}
+
+.lista .linha:not(.linha-cabeca) {
+    word-break: break-all;
+}

@@ -1,0 +1,54 @@
+
+.cabecalho {
+    display: grid;
+    grid-template-columns: 1fr 0.75fr 0.5fr 0.5fr 0.5fr;
+    border: solid 1px;
+    padding: 8px;
+}
+
+.cabecalho-item {
+    padding: 4px;
+    font-size: 17px;
+}
+
+.cinema-nome {
+    font-size: 20px;
+    margin-top: 27px;
+    margin-bottom: 27px;
+}
+
+.venda {
+    display: grid;
+    grid-template-columns: 1fr 0.75fr 0.5fr 0.5fr 0.5fr;
+    padding: 6px;
+}
+
+.filme {
+    font-weight: bold;
+}
+
+.total-cinema {
+    display: grid;
+    grid-template-columns: 1fr 0.75fr 0.5fr 0.5fr 0.5fr;
+    padding: 8px;
+    border: solid 1px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.total-texto {
+    text-align: right;
+}
+
+.total-valor {
+    text-align: right;
+}
+
+.total-geral {
+    display: grid;
+    grid-template-columns: 1fr 0.75fr 0.5fr 0.5fr 0.5fr;
+    padding: 8px;
+    border: solid 2px;
+    border-radius: 15px;
+    margin-top: 20px;
+}

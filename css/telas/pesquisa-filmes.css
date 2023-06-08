@@ -1,0 +1,27 @@
+.grid-filmes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.card-filme {
+    position: relative;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 30px;
+    cursor: pointer;
+    aspect-ratio: 2 / 3;
+}
+
+.card-filme img {
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 600px) {
+    .grid-filmes {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
